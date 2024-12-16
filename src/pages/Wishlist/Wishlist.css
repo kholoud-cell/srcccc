@@ -1,0 +1,84 @@
+.top-wishlist,
+.bottom-wishlist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.wishlist .image{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.wishlist .btn{
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    transition: 0.3s;
+}
+.wishlist .cartbtn{
+    font-size: 25px;
+}
+.wishlist img{
+    width: 100%;
+    transition: 0.3s;
+}
+.wishlist img:hover{
+    scale: 1.1;
+}
+.wishlist .delete{
+    position: absolute;
+    top: 10px;
+    right: 4px;
+    font-size: 20px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.493);
+    color: white;
+    width: 25px;
+    height: 25px;
+    transition: 0.3s;
+}
+.wishlist .btn:hover
+,.wishlist .delete:hover,
+.wishlist .clear:hover{
+    color: rgb(255, 255, 255);
+    background-color: red;
+}
+.text{
+    text-align: center;
+}
+.wishlist .clear,
+.just-for .header button
+{
+    background-color: gray;
+    padding: 10px 20px;
+    width: 300px;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+.just-for{
+    margin: 30px 0;
+}
+.just-for .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.see-all{
+    font-size: 20px;
+}
